@@ -2,7 +2,7 @@ import re
 from shutil import copyfile
 import configparser
 
-# Loading available config
+# Loading available configs
 config = configparser.ConfigParser()
 config.read('config.ini')
 
